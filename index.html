@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather of Destinations with DropDown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-cloud-sun"></i> Pakistan Weather App</h1>
+        <div class="dropdown-container">
+            <label for="locations" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 24px; margin-bottom: 19px;">Choose a location:</label>
+            <select id="locations">
+                <option value="naran,kaghan">Naran Kaghan</option>
+                <option value="hunza">Hunza Valley</option>
+                <option value="murree">Murree</option>
+                <option value="skardu">Skardu</option>
+                <option value="swat">Swat Valley</option>
+                <option value="gilgit">Gilgit</option>
+                <option value="chitral">Chitral</option>
+                <option value="neelum">Neelum Valley</option>
+                <option value="fairy meadows">Fairy Meadows</option>
+                <option value="lahore">Lahore</option>
+                <option value="karachi">Karachi</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="quetta">Quetta</option>
+                <option value="peshawar">Peshawar</option>
+                <option value="gwadar">Gwadar</option>
+                <option value="ratti gali">Ratti Gali Lake</option>
+                <option value="passu">Passu Cones</option>
+                <option value="khunjerab">Khunjerab Pass</option>
+                <option value="shogran">Shogran</option>
+                <option value="rawalpindi">Rawalpindi</option>
+                <option value="multan">Multan</option>
+                <option value="bahawalpur">Bahawalpur</option>
+                <option value="sialkot">Sialkot</option>
+                <option value="abbottabad">Abbottabad</option>
+                <option value="dera ghazi khan">Dera Ghazi Khan</option>
+                <option value="faisalabad">Faisalabad</option>
+                <option value="nathia gali">Nathia Gali</option>
+                <option value="zindar">Zindar</option>
+                <option value="khewra">Khewra Salt Mine</option>
+            </select>
+        </div>
+        <button onclick="getWeather()"><i class="fas fa-search"></i> Get Weather</button>
+
+        <div id="weatherInfo" class="weather-info">
+            <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Please Select a Location</p>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
+
